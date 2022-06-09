@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding-left: 60px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.item{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 30%);
+    row-gap: 30px;
+    column-gap: 15px;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.content{
+    padding: 30px 70px;
+}
+.layout{
+    font-size: 18px;
+}
+.page{
+    font-size: 28px;
+    color: black;
+}
+.sec{
+    font-size: 17px;
+    color: gray;
+}
+span{
+    font-size: 20px;
+    color:rgb(14, 160, 185) ;
+}
+.text
+{
+    padding: 16px 0px;
+}
+hr{
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border:1px solid rgb(231, 231, 231);
+    background-color: rgb(231, 231, 231);
+}
+footer p{
+    font-size: 14px;
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .page{
+    font-size: 26px;
+    color: black;
+}
+.sec{
+    font-size: 17px;
+    color: gray;
+}
+span{
+    font-size: 18px;
+    color:rgb(14, 160, 185) ;
+}
+.text p{
+    font-size: 14px;
+}
+
+}
+@media screen and (min-width:580px) and (max-width:768px) {
+    .page{
+    font-size: 24px;
+    color: black;
+}
+.sec{
+    font-size: 16px;
+    color: gray;
+}
+span{
+    font-size: 16px;
+    color:rgb(14, 160, 185) ;
+}
+.text p{
+    font-size: 12px;
+}
+
+}
+@media screen and (min-width:425px) and (max-width:579px) {
+    .item{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, 17%);
+    row-gap: 30px;
+    column-gap: 15px;
+}
+    .page{
+    font-size: 26px;
+    color: black;
+}
+.sec{
+    font-size: 17px;
+    color: gray;
+}
+span{
+    font-size: 18px;
+    color:rgb(14, 160, 185) ;
+}
+.text p{
+    font-size: 14px;
+}
+
+}
+@media screen and (min-width:270px) and (max-width:424px) {
+    .item{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(9, 10%);
+    row-gap: 10px;
+    column-gap: 15px;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    height: 160px;
+    display: grid;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+a{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 14px;
+}
+.layout{
+    font-size: 16px;
+}
+    .page{
+    font-size: 22px;
+    color: black;
+}
+.sec{
+    font-size: 14px;
+    color: gray;
+}
+span{
+    font-size: 15px;
+    color:rgb(14, 160, 185) ;
+}
+.text p{
+    font-size: 12px;
+}
+.content{
+    padding: 10px 20px;
+}
+footer p{
+    font-size: 11px;
+}
+}
